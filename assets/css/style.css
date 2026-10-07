@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff; /* Texto geral em branco puro */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-register {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+/* Títulos das labels acima dos inputs */
+.form-label {
+    color: #f1f5f9 !important; /* Branco brilhante */
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+/* Subtítulo da marca */
+.text-muted {
+    color: #cbd5e1 !important; /* Cinza bem claro para leitura perfeita */
+}
+
+/* Campos de entrada (inputs) */
+.form-control {
+    background-color: #0f172a !important;
+    border: 1px solid #475569 !important;
+    color: #ffffff !important; /* Texto que o usuário digita fica branco */
+    font-weight: 500;
+}
+
+/* Dicas dentro do campo (Placeholder) */
+.form-control::placeholder {
+    color: #94a3b8 !important; /* Cinza claro bem visível */
+    opacity: 1;
+}
+
+.form-control:focus {
+    background-color: #0f172a !important;
+    border-color: #3b82f6 !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 0 0.25rem rgba(59, 130, 246, 0.3);
+}
+
+/* Ícones do lado dos campos */
+.input-group-text {
+    background-color: #334155 !important;
+    border: 1px solid #475569 !important;
+    color: #38bdf8 !important; /* Azul destaque para os ícones */
+}
+
+/* Botão Principal */
+.btn-clshop {
+    background-color: #2563eb;
+    color: #ffffff !important;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.btn-clshop:hover {
+    background-color: #1d4ed8;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+}

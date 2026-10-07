@@ -1,0 +1,8 @@
+# Ficheiros de configuração com senhas locais (se houver)
+config/database_local.php
+
+# Ficheiros do sistema operacional e IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/s
